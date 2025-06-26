@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
-import dbConnection from "./app/config/dbConfig.js";
-import setupRoutes from './app/Route/index.js'
+import dbConnection from "./src/app/config/dbConfig.js";
+import setupRoutes from './src/app/Route/index.js'
 
 const app = express();
 dotenv.config();
