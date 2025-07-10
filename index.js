@@ -18,6 +18,7 @@ app.use(cors({
 
 dbConnection()
 app.use(express.json());
+
 setupRoutes(app);
 app.get('/', (req, res) => {
   res.send("Connected to server");
